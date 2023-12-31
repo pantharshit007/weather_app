@@ -87,7 +87,6 @@ async function fetchUserWeatherData(coords) {
 //using the accurired data from API call
 function renderWeatherData(data){
 
-    
 
 }
 
