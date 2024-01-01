@@ -20,7 +20,7 @@ const cloudiness = document.querySelector("[data-cloudiness]");
 
 let currentTab = userTab;   
 currentTab.classList.add("current-tab");
-const API_KEY = "08267dbaaf304f50d2ca93a67d2b5f8f";
+// const API_KEY = "08267dbaaf304f50d2ca93a67d2b5f8f";
 
 userTab.addEventListener('click', () => {
     switchTab(userTab);
