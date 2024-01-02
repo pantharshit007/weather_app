@@ -1,9 +1,13 @@
-.tab.current-tab{
-    background-color: rgba(219,226,239,0.5);
-    border-radius: 4px;
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather Sans', sans-serif;
 }
-
-.form-container.active{
-    scale:1;
-    opacity: 1;
+    
+:root {
+    --colorDark1: D#112D4E;
+    --colorDark2: D#3F72AF;
+    --colorLight1:#DBE2EF;
+    --colorLight2:#F9F7F7;  
 }
