@@ -1,6 +1,7 @@
 # Weather App
 
 A simple and intuitive weather app that allows users to check their local weather or search for weather information in different cities.
+Live [here](https://weather-app707.netlify.app/)
 
 ## Table of Contents
 
@@ -14,7 +15,7 @@ A simple and intuitive weather app that allows users to check their local weathe
 
 ## Introduction
 
-This Weather App provides users with real-time weather information, including temperature, wind speed, humidity, and more. Users can view their local weather by granting location access or search for weather information in other cities.
+This Weather App provides users with real-time weather information, including temperature, wind speed, humidity, and more. Users can view their local weather by granting location access or searching for weather information in other cities.
 
 ## Features
 
@@ -37,7 +38,7 @@ This Weather App provides users with real-time weather information, including te
 3. Grant location access or use the search form to find weather information.
 4. View real-time weather details for the selected location.
 
-## Screenshots]
+## Screenshots
 
 ![Screenshot 1](./img/grant-access.png)
 *Grant Location.*
@@ -50,7 +51,7 @@ This Weather App provides users with real-time weather information, including te
 
 ## How to Run
 
-To run the Weather App locally, follow these steps:
+To run the Weather App locally, follow these steps or click [here](https://weather-app707.netlify.app/):
 
 1. Clone the repository.
 2. Open the `index.html` file in your preferred web browser.
