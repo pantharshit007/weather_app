@@ -159,4 +159,3 @@ async function fetchSearchInfo(city){
     }
 }
 
-// https://api.openweathermap.org/data/2.5/weather?q=jammu&appid=08267dbaaf304f50d2ca93a67d2b5f8f&units=metric
