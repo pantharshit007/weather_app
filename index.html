@@ -4,11 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Carattere&family=Kalnia&family=PT+Serif&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <script src="script.js" type="module" defer></script>
 </head>
 <body>
-    <wrapper>
+    <div class="wrapper">
 
     <h1>Weather App</h1>
 
@@ -20,7 +23,7 @@
     <div class="weather-container">
 
         <!-- Grant Location -->
-        <div class="grant-location">
+        <div class="sub-container grant-location">
             <img src="./img/location.png" alt="location image" width="80" height="80" loading="lazy"/>
             <p>Grand Location Access</p>
             <p>Allow access to locate Weather Accurately</p>
@@ -38,13 +41,13 @@
         </form>
 
         <!-- Loading... Screen -->
-        <div class="loading-container">
+        <div class="sub-container loading-container">
             <img src="./img/loading-2.gif" alt="loading image" width="150" height=""150>
-            <p>Loading...</p>
+            <p>LOADING...</p>
         </div>
 
         <!-- show Weather Information -->
-        <div class="user-info">
+        <div class="sub-container user-info">
             <!-- city Name -->
             <div class="name">
                 <p data-cityName></p>
@@ -65,7 +68,7 @@
                 <!-- card 1 -->
                 <div class="parameter">
                     <img src="./img/wind.png" alt="">
-                    <p>WIND SPEEDS</p>
+                    <p>WINDSPEEDS</p>
                     <p data-speed></p>
                 </div>
 
@@ -86,10 +89,17 @@
             </div>
         </div>
 
+        <!-- Error page -->
+        <div class="sub-container error-container">
+            <img src="./img/not-found.png" alt="error page" loading="lazy">
+            <p data-cityNotFound></p>
+        </div>
+
     </div>
-
-    </wrapper>
-
+        <a href="https://github.com/pantharshit007/weather_app">@pantharshit007</a>
+    </div>
+    
+   
     
 </body>
 </html>
