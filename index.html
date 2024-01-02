@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather App</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
+    <script src="script.js" type="module" defer></script>
 </head>
 <body>
     <wrapper>
@@ -24,14 +24,14 @@
             <img src="./img/location.png" alt="location image" width="80" height="80" loading="lazy"/>
             <p>Grand Location Access</p>
             <p>Allow access to locate Weather Accurately</p>
-            <button class="btn" data-grandAcces>Grant Access</button>
+            <button class="btn" data-grantAccess>Grant Access</button>
         </div>
 
         <!-- Search Form -->
         <form class="form-container" data-searchForm >
 
             <input type="text" placeholder="Search city..." data-searchInput>
-            <button class="btn">
+            <button class="btn" type="submit">
                 <img src="./img/search.png" alt="search image" width="20" height="20" loading="lazy">
             </button>
             
